@@ -1,18 +1,30 @@
-.friend-item {
+.friend-list-item {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 10px;
-    margin-bottom: 10px;
+    width: 100px;
+    background-color: whitesmoke;
+
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
 }
 
-.friend-item img {
-    border-radius: 50%;
+
+.friend-list-item img {
+    margin-right: 10px;
+    border-radius: 70%;
 }
 
-.online {
+.friend-name {
+    color: black;
+    font-size: 24px;
+}
+
+.status-online {
     color: green;
 }
 
-.offline {
+.status-offline {
     color: red;
 }

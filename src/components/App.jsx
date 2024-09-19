@@ -7,16 +7,8 @@ export default function App() {
   return (
     <>
       <Profile data={userData} />
-
       <FriendList friends={friends} />
 
-      <FriendList friends={friends} />
-
-      <FriendList friends={friends} />
-      
-      <FriendList friends={friends} />
-      
-      <FriendList friends={friends} />
     </>
   );
 }
