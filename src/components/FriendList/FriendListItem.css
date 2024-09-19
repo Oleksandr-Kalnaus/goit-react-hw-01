@@ -1,0 +1,18 @@
+.friend-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.friend-item img {
+    border-radius: 50%;
+}
+
+.online {
+    color: green;
+}
+
+.offline {
+    color: red;
+}
