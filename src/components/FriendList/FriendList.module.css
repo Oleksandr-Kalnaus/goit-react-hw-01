@@ -1,5 +1,8 @@
-.friend-list {
+.friendList {
     display: flex;
     gap: 10px;
     list-style: none;
+}
+
+.friendListItem {
 }

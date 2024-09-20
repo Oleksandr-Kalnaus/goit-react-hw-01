@@ -1,0 +1,75 @@
+.box {
+    background-color: aliceblue;
+    margin: 40px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.profileBox {
+display: flex;
+flex-direction: column;
+align-items: center;
+border-bottom: 2px solid grey;
+}
+
+.avatar {
+margin: 20px;
+border: 1px solid inherit;
+border-radius: 100px;
+width: 150px;
+background-color: darkslategray;
+}
+
+.username {
+    margin: 0;
+color: black;
+font-size: 26px;
+font-weight: 700;
+}
+
+.tag {
+        margin: 0;
+color: gray;
+font-size: 20px;
+}
+
+.location {
+margin: 0;
+color: gray;
+font-size: 20px;
+}
+
+.list {
+display: flex;
+align-items: center;
+margin: 0;
+padding: 0;
+}
+
+.item {
+display: flex;
+flex-direction: column;
+align-items: center;
+color: black;
+list-style: none;
+width: 100%;
+padding: 0;
+}
+
+.item:first-child {
+border-right: 2px solid grey;
+}
+
+.item:last-child {
+    border-left: 2px solid grey;
+}
+
+.itemText {
+color: black;
+}
+
+.itemNumber {
+color: black;
+font-weight: 600;
+}
+
