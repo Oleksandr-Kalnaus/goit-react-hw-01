@@ -1,0 +1,25 @@
+.transactionHistory {
+  min-width: 375px;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.tabletItem {
+  border: 1px solid #000;
+  padding: 8px 20px;
+  color: #000;
+  text-align: center;
+}
+
+.tableHead {
+  background-color: #333;
+  color: white;
+}
+
+.tabletRow:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tabletRow:nth-child(odd) {
+  background-color: #ccc;
+}
